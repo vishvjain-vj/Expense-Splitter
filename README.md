@@ -3,7 +3,7 @@
 A REST API to split bills among friends and compute the **minimum number of transactions** needed to settle all debts — like a backend for Splitwise.
 
 **Live Demo:** `https://expense-splitter-api.onrender.com/docs`
-
+Note: If accessing the live API link, please allow 30-45 seconds for the free-tier hosting instance to wake up from a cold start." Interviewers are completely used to this and appreciate the heads-up.
 ---
 
 ## Architecture

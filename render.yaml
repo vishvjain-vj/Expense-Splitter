@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: expense-splitter-api
+    runtime: docker
+    plan: free
+    envVars:
+      - key: DB_HOST
+        sync: false
+      - key: DB_PORT
+        value: 3306
+      - key: DB_USER
+        sync: false
+      - key: DB_PASSWORD
+        sync: false
+      - key: DB_NAME
+        value: expense_splitter
+    healthCheckPath: /
